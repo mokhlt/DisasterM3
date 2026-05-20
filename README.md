@@ -1,3 +1,23 @@
+# QCRI Internship Preparatory Entry Task
+
+This repository is my submission for the QCRI Humanitarian AI internship preparatory task.
+
+I forked the original DisasterM3 repository and added the required task files for the preparatory submission.
+
+## Added Work
+
+- `vision_tasks.md`: basic computer vision tasks.
+- `evaluation_methodology.md`: how VLMs are evaluated.
+- `analysis.md`: DisasterM3 repository analysis.
+- `execution_notes.md`: notes from trying to run one script.
+- `reuse_analysis.md`: EarthVQA reuse analysis.
+- `DisasterM3_paper_summary.md`: bonus paper summary.
+- `datasets/base.py`: basic dataset interface.
+- `datasets/disasterm3.py`: basic DisasterM3 dataset adapter.
+- `datasets/earthvqa.py`: basic EarthVQA adapter as a bonus.
+
+---
+
 <h2 align="center">
   <img
     src="https://github.com/Junjue-Wang/resources/blob/main/DisasterM3/icon.png?raw=true"
