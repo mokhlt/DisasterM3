@@ -2,36 +2,20 @@
 
 ## Problem Statement
 
-The paper explains that Vision-Language Models are becoming useful for image and text tasks, but disaster analysis is still difficult for them.
-
-Disaster images can be complicated because they involve different disaster types, different places, and different satellite sensors. General VLMs may not understand these disaster scenes well because they were not trained or tested enough on this type of data.
+The problem is that normal Vision-Language Models are not always good at disaster images. These images can be hard because they show different disasters, places, and satellite views.
 
 ## Solution
 
-The authors created DisasterM3, a remote sensing vision-language dataset for disaster damage assessment and response.
-
-The dataset includes satellite images before and after disasters. It also includes instruction-style question and answer pairs.
-
-The dataset is designed to be:
-
-- multi-hazard
-- multi-sensor
-- multi-task
-
-This means it covers different disaster types, uses different image sources like optical and SAR images, and includes different tasks.
+The authors made DisasterM3.
+It is a dataset for testing models on disaster damage assessment and response. It has satellite images and question-answer tasks about disasters.
 
 ## Experimentation
 
-The paper evaluated 14 different Vision-Language Models.
-
-The tasks included disaster-related visual understanding and reasoning, such as recognizing disaster areas, assessing damage, counting objects, and generating disaster reports.
-
-The results showed that many VLMs still struggle with disaster scenes. Some problems include understanding disaster-specific details, handling different sensor types, and counting damaged objects correctly.
-
-The paper also shows that fine-tuning models on DisasterM3 can improve their performance.
+The paper tested 14 Vision-Language Models.
+The tasks included disaster recognition, damage assessment, counting, reasoning, and report writing.
+The results showed that many models still make mistakes, especially with counting and understanding damage.
 
 ## My Understanding
 
-The main idea of the paper is that disaster analysis needs its own dataset and benchmark.
-
-General VLMs are strong, but disaster response has special challenges. A dataset like DisasterM3 can help test models more fairly and improve them for real disaster-related tasks.
+DisasterM3 helps test if AI models can understand disaster images properly.
+My main takeaway is that general AI models are useful, but disaster response needs more specific testing.
